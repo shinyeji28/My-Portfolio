@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Accommodate from './components/Accommodate';
+import ProfileCard from './components/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Accommodate />
+    {/* <Accommodate /> */}
+    <ProfileCard />
   </React.StrictMode>
 );
 

@@ -10,7 +10,7 @@ function Accommodate(props) {
         console.log("============");
         console.log("useEffect() is called.");
         console.log(`isFull: ${isFull}`);
-    });
+    }); 
     useEffect(()=>{
         setIsFull(count >= MAX_CAPACITY);
         console.log(`Current count value: ${count}`);
