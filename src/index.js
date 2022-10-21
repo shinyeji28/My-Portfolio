@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Accommodate from './components/Accommodate';
 import ProfileCard from './components/ProfileCard';
+import DarkOrLight from './components/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Accommodate /> */}
-    <ProfileCard />
+    {/* <ProfileCard /> */}
+    <DarkOrLight/>
   </React.StrictMode>
 );
 
