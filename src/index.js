@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Accommodate from './components/Accommodate';
 import ProfileCard from './components/ProfileCard';
 import DarkOrLight from './components/DarkOrLight';
+import Blocks from './components/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,8 @@ root.render(
     {/* <App /> */}
     {/* <Accommodate /> */}
     {/* <ProfileCard /> */}
-    <DarkOrLight/>
+    {/* <DarkOrLight/> */}
+    <Blocks/>
   </React.StrictMode>
 );
 
