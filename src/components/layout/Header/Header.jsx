@@ -4,7 +4,7 @@ import "./Header.css";
 
 function Header(props){
     return (
-        <header className="header-wrapper">
+        <header className="wrapper">
             <nav>
                 <div className="under-line"></div>
                 <a href="#0">Introduce</a>

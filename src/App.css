@@ -1,0 +1,4 @@
+.home-wraper{
+    padding-top: 60px;
+    max-height: calc(100%-60px);  /*header height 뺀 나머지*/
+}

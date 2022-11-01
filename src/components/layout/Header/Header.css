@@ -1,4 +1,5 @@
-.header-wrapper {
+.wrapper {
+    position: fixed;
     width: 100%;
     height: 30px;
     padding: 10px 0 15px 0;
