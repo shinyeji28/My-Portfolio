@@ -1,6 +1,19 @@
 /*project section*/
+.section_layout{
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    width: 100%;
+}
 .card_container{
-    width: 90%;
-    /* min-height: 100px; */
-    max-height: 300px
+    max-height: 700px;
+    justify-content: right;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 900;
+    align-self: center;
+    width: 100%;
+    margin-left: 30px;
+    text-shadow: #cfabe7 1px 0 10px;
 }
