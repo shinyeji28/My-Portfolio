@@ -1,0 +1,11 @@
+/* project card */
+.card_wrap{
+    width: 400px;
+    /* min-height: 100px; */
+    height: 100%;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+    box-shadow: 60px -16px plum;
+}
