@@ -10,7 +10,7 @@ function Project(){
     };
     const _data=jsonData;
     return (
-        <div className={styles.section_layout} style={section_style}>
+        <div id='3' className={styles.section_layout} style={section_style}>
             <p className={styles.title}>웹 개발 프로젝트를 소개합니다.</p>
             <div className={[styles.section_layout, styles.card_container].join(' ')}>
                 {_data.map(data => { 
